@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Large training checkpoint, exceeds GitHub's 100MB limit
+models/checkpoints/supervised_last.pt
